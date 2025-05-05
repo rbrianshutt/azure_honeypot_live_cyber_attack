@@ -35,51 +35,55 @@ In this lab, I deployed a Windows 10 virtual machine in Microsoft Azure to simul
 - [Creating and exposing a Windows 10 virtual machine to simulate attack surface](https://github.com/rbrianshutt/attack_surface/blob/main/README.md)
 - [Capturing failed login attempts and analyzing them via Event Viewer](https://github.com/rbrianshutt/event_viewer/blob/main/README.md)
 - [Forwarding logs to a centralized Log Analytics Workspace (LAW)](https://github.com/rbrianshutt/law/blob/main/README.md)
+- [Deploying Microsoft Sentinel and configuring security connectors](https://github.com/rbrianshutt/sentinel/blob/main/README.md)
 
-Pull up Microsoft Sentinel, go to Configuration -> Watchlist  <br/>
-Click New to create a new Watchlist <br/>
+Go to Microsoft Sentinel -> Threat management -> Workbooks  <br/>
+Click Add Workbook  <br/>
 
-![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/4.1%20sentinel%2C%20configuration-%20watchlist%2C%20create%20new.png)
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.1%20sentinel%2C%20threat%20management-workbooks%2C%20add%20workbook.png)
 <br />
 
-Enter geoip for Name and geoip for Alias<br/>
-Click Next: Source <br/>
+Click edit and remove pre populated content  <br/>
 
-![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/4.2%20name%20geoip%2C%20alias%20geoip.png)
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.1.2%20click%20edit%20and%20remove%20pre%20populated%20content.png)
 <br />
 
-Set source type to local file<br/>
-Upload the geo-ip summazied.csv file (provided by Josh Madakor) <br/>
-Set searchkey to network<br/>
-Click review and create  <br/>
+Click Add <br/>
 
-![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/4.3%20source%20type-local%20file%2C%20upload%20file%2C%20searchkey-network%2C%20review%20and%20create.png)
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.1.3%20click%20add%20.png)
 <br />
 
-Click Create under Review and create  <br/>
+Go to Add query <br/>
 
-![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/4.4%20create%20watchlist.png)
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.1.3%20click%20add%20query%20.png)
 <br />
 
-Our watchlist created <br/>
+Click advanced editor, enter JSON, click done editing <br/>
+Enter JSON <br/>
+Click Done Editing <br/>
 
-![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/4.5%20watchlist%20created%20.png)
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.1.4%20click%20advanced%20editor%2C%20enter%20JSON%2C%20click%20done%20editing.png)
 <br />
 
-Lorem ipsum  <br/>
+Save as Windows VM Attack Map <br/>
+Make sure resource group and subscription are correct  <br/>
+Click Save As <br/>
 
-![]()
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.2%20save%20as%20Windows%20VM%20Attack%20Map%2C%20set%20resource%20group%2C%20save%20as.png)
 <br />
 
-Lorem ipsum  <br/>
+Set KQL query to pull up failed logons and use geolocation data <br/>
+Click Run Query <br/>
 
-![]()
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.3%20set%20KQL%20query%20in%20log%20analytics%20workspace%2C%20run%20query.png)
 <br />
 
-Lorem ipsum  <br/>
+Here is the Attack Map after 24 hours <br/>
 
-![]()
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.4%20Windows%20VM%20Attack%20Map%20after%2024hrs..png)
 <br />
+
+
 
 
 
