@@ -1,6 +1,6 @@
 <h1>Azure Honeypot & SIEM: Real-Time Cyber Attack Detection</h1>
 
-![]()
+![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.4%20Windows%20VM%20Attack%20Map%20after%2024hrs..png)
 
 
 <h2>Description</h2>
