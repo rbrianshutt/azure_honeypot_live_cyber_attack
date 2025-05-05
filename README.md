@@ -33,6 +33,22 @@ In this lab, I deployed a Windows 10 virtual machine in Microsoft Azure to simul
 
 - [Setting up an Azure environment](https://github.com/rbrianshutt/setting_up_azure_environment/blob/main/README.md)
 - [Creating and exposing a Windows 10 virtual machine to simulate attack surface](https://github.com/rbrianshutt/attack_surface/blob/main/README.md)
+- [Capturing failed login attempts and analyzing them via Event Viewer](https://github.com/rbrianshutt/event_viewer/blob/main/README.md)
+
+Lorem ipsum  <br/>
+
+![]()
+<br />
+
+Lorem ipsum  <br/>
+
+![]()
+<br />
+
+Lorem ipsum  <br/>
+
+![]()
+<br />
 
 
 
