@@ -31,6 +31,8 @@ In this lab, I deployed a Windows 10 virtual machine in Microsoft Azure to simul
 
 <h2>Program Walk-Through:</h2>
 
+- [Setting up an Azure environment](https://github.com/rbrianshutt/setting_up_azure_environment/blob/main/README.md)
+
 Create a resource group: RG-SOC_Lab <br/>
 
 ![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/1.0%20resource%20group.png)
