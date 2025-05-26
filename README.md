@@ -36,7 +36,7 @@ In this lab, I deployed a Windows 10 virtual machine in Microsoft Azure to simul
 - [Capturing failed login attempts and analyzing them via Event Viewer](https://github.com/rbrianshutt/event_viewer/blob/main/README.md)
 - [Forwarding logs to a centralized Log Analytics Workspace (LAW)](https://github.com/rbrianshutt/law/blob/main/README.md)
 - [Deploying Microsoft Sentinel and configuring security connectors](https://github.com/rbrianshutt/sentinel/blob/main/README.md)
-- [Write KQL (Kusto Query Language) a query to investigate suspicious activity, enrich logs with geolocation data using a custom watchlist, and visualize attack origins through a dynamic threat map in Microsoft Sentinel Workbooks]()
+- [Write KQL (Kusto Query Language) a query to investigate suspicious activity, enrich logs with geolocation data using a custom watchlist, and visualize attack origins through a dynamic threat map in Microsoft Sentinel Workbooks](https://github.com/rbrianshutt/sentinel_workbook/blob/main/README.md)
 
 Go to Microsoft Sentinel -> Threat management -> Workbooks  <br/>
 Click Add Workbook  <br/>
