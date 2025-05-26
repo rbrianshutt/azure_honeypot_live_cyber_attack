@@ -58,7 +58,7 @@ Go to Add query <br/>
 ![](https://github.com/rbrianshutt/azure_honeypot_live_cyber_attack/blob/main/SOC%20Lab/5.1.3%20click%20add%20query%20.png)
 <br />
 
-Click advanced editor, enter JSON, click done editing <br/>
+Click advanced editor <br/>
 Enter JSON <br/>
 Click Done Editing <br/>
 
