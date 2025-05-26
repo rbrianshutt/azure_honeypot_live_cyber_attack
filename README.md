@@ -36,6 +36,7 @@ In this lab, I deployed a Windows 10 virtual machine in Microsoft Azure to simul
 - [Capturing failed login attempts and analyzing them via Event Viewer](https://github.com/rbrianshutt/event_viewer/blob/main/README.md)
 - [Forwarding logs to a centralized Log Analytics Workspace (LAW)](https://github.com/rbrianshutt/law/blob/main/README.md)
 - [Deploying Microsoft Sentinel and configuring security connectors](https://github.com/rbrianshutt/sentinel/blob/main/README.md)
+- [Create a Microsoft Sentinel Workbook, configure JSON in the advanced editor, and visualize failed logon attempts with geolocation data using Kusto Query Language (KQL)]()
 
 Go to Microsoft Sentinel -> Threat management -> Workbooks  <br/>
 Click Add Workbook  <br/>
